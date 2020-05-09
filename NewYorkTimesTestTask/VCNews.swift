@@ -37,6 +37,11 @@ class VCNews : UIViewController , UITableViewDataSource , UITableViewDelegate{
      }
 
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        TableViewNews.deselectRow(at: indexPath, animated: true);
+        CurrentUsersData.currentSelectedNewsText = docs[indexPath.row].web_url;
+    }
+    
     func loadData(){
         CurrentUsersData.currentDocs = [];
         let urlCurrentRequestForNewsString = "https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=section_name:(%22\(CurrentUsersData.selectedCategory)%22)&begin_date=20200501&end_date=20200505&api-key=\(CurrentUsersData.apiKey)";

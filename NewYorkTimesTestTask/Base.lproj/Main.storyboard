@@ -66,7 +66,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="EIg-nn-BOH"/>
                     </view>
-                    <navigationItem key="navigationItem" id="JcL-yL-9RV"/>
+                    <navigationItem key="navigationItem" title="Categories" id="JcL-yL-9RV"/>
                     <connections>
                         <outlet property="TableViewCategories" destination="Hxv-0x-WgI" id="jTZ-aD-4AE"/>
                     </connections>
@@ -104,6 +104,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="4jA-06-rXC" kind="show" id="dTe-hk-iJB"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -115,14 +118,40 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="oW9-Zg-Oz2"/>
                     </view>
-                    <navigationItem key="navigationItem" id="tbd-2N-Ubg"/>
+                    <navigationItem key="navigationItem" title="News" id="tbd-2N-Ubg"/>
                     <connections>
                         <outlet property="TableViewNews" destination="Q2F-hU-lGG" id="PIf-zs-0xP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XW0-de-6Ub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="960.79999999999995" y="-209.14542728635683"/>
+            <point key="canvasLocation" x="1258" y="78"/>
+        </scene>
+        <!--Selected News-->
+        <scene sceneID="atR-bw-Fnf">
+            <objects>
+                <viewController id="4jA-06-rXC" customClass="VCSelectedNews" customModule="NewYorkTimesTestTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qsa-Gy-bwi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6M2-za-cqj">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="hY6-pw-yY3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1U6-On-lzu"/>
+                    <connections>
+                        <outlet property="webViewCurrentNews" destination="6M2-za-cqj" id="bWo-8r-ZJW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="odN-xf-89d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2116" y="77.811094452773617"/>
         </scene>
     </scenes>
 </document>

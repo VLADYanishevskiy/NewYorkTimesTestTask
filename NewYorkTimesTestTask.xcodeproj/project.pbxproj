@@ -16,6 +16,7 @@
 		861B537A24662DAB00E85BA5 /* StaticCurrentUsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B537924662DAB00E85BA5 /* StaticCurrentUsersData.swift */; };
 		861B537C24662EEF00E85BA5 /* VCNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B537B24662EEF00E85BA5 /* VCNews.swift */; };
 		861B537F2466F8D000E85BA5 /* JsonStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B537E2466F8D000E85BA5 /* JsonStructures.swift */; };
+		861B538124672ED000E85BA5 /* VCSelectedNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B538024672ED000E85BA5 /* VCSelectedNews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		861B537924662DAB00E85BA5 /* StaticCurrentUsersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticCurrentUsersData.swift; sourceTree = "<group>"; };
 		861B537B24662EEF00E85BA5 /* VCNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCNews.swift; sourceTree = "<group>"; };
 		861B537E2466F8D000E85BA5 /* JsonStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonStructures.swift; sourceTree = "<group>"; };
+		861B538024672ED000E85BA5 /* VCSelectedNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCSelectedNews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				861B5371246607F200E85BA5 /* Info.plist */,
 				861B537924662DAB00E85BA5 /* StaticCurrentUsersData.swift */,
 				861B537B24662EEF00E85BA5 /* VCNews.swift */,
+				861B538024672ED000E85BA5 /* VCSelectedNews.swift */,
 			);
 			path = NewYorkTimesTestTask;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				861B537C24662EEF00E85BA5 /* VCNews.swift in Sources */,
 				861B537F2466F8D000E85BA5 /* JsonStructures.swift in Sources */,
+				861B538124672ED000E85BA5 /* VCSelectedNews.swift in Sources */,
 				861B5368246607F100E85BA5 /* VCCategories.swift in Sources */,
 				861B5364246607F100E85BA5 /* AppDelegate.swift in Sources */,
 				861B537A24662DAB00E85BA5 /* StaticCurrentUsersData.swift in Sources */,
