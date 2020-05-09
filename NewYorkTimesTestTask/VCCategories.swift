@@ -23,7 +23,24 @@ class VCCategories: UIViewController , UITableViewDataSource , UITableViewDelega
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         TableViewCategories.deselectRow(at: indexPath, animated: true);
-        CurrentUsersData.selectedCategory = CurrentUsersData.Categories[indexPath.row];
+        switch CurrentUsersData.Categories[indexPath.row] {
+        case "Arts":
+            CurrentUsersData.selectedCategory = "arts";
+            break;
+        case "Sport":
+            CurrentUsersData.selectedCategory = "sports";
+            break;
+        case "Science":
+            CurrentUsersData.selectedCategory = "science";
+            break;
+        case "Health":
+            CurrentUsersData.selectedCategory = "health";
+            break;
+        default:
+            CurrentUsersData.selectedCategory = "home";
+            break;
+        }
+        
         
         print(CurrentUsersData.selectedCategory);
     }

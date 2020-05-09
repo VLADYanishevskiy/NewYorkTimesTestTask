@@ -15,6 +15,7 @@
 		861B5370246607F200E85BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861B536E246607F200E85BA5 /* LaunchScreen.storyboard */; };
 		861B537A24662DAB00E85BA5 /* StaticCurrentUsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B537924662DAB00E85BA5 /* StaticCurrentUsersData.swift */; };
 		861B537C24662EEF00E85BA5 /* VCNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B537B24662EEF00E85BA5 /* VCNews.swift */; };
+		861B537F2466F8D000E85BA5 /* JsonStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B537E2466F8D000E85BA5 /* JsonStructures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		861B5371246607F200E85BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		861B537924662DAB00E85BA5 /* StaticCurrentUsersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticCurrentUsersData.swift; sourceTree = "<group>"; };
 		861B537B24662EEF00E85BA5 /* VCNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCNews.swift; sourceTree = "<group>"; };
+		861B537E2466F8D000E85BA5 /* JsonStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonStructures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		861B5362246607F100E85BA5 /* NewYorkTimesTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				861B537D2466F8A500E85BA5 /* CustomJsonGetRequestStructures */,
 				861B5363246607F100E85BA5 /* AppDelegate.swift */,
 				861B5365246607F100E85BA5 /* SceneDelegate.swift */,
 				861B5367246607F100E85BA5 /* VCCategories.swift */,
@@ -71,6 +74,14 @@
 				861B537B24662EEF00E85BA5 /* VCNews.swift */,
 			);
 			path = NewYorkTimesTestTask;
+			sourceTree = "<group>";
+		};
+		861B537D2466F8A500E85BA5 /* CustomJsonGetRequestStructures */ = {
+			isa = PBXGroup;
+			children = (
+				861B537E2466F8D000E85BA5 /* JsonStructures.swift */,
+			);
+			path = CustomJsonGetRequestStructures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				861B537C24662EEF00E85BA5 /* VCNews.swift in Sources */,
+				861B537F2466F8D000E85BA5 /* JsonStructures.swift in Sources */,
 				861B5368246607F100E85BA5 /* VCCategories.swift in Sources */,
 				861B5364246607F100E85BA5 /* AppDelegate.swift in Sources */,
 				861B537A24662DAB00E85BA5 /* StaticCurrentUsersData.swift in Sources */,

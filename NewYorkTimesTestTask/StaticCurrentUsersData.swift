@@ -9,7 +9,7 @@
 import Foundation
 
 class CurrentUsersData{
-    public static var Categories:[String] = ["Sport" , "Music" , "Space"];
+    public static var Categories:[String] = ["Arts" , "Sport" , "Science" , "Health"];
     public static var selectedCategory:String = "";
     public static var apiKey = "3UY5UQzAVzKLkP7vDXOoAGOXnljcem6t"
     public static var currentNewsForSelectedCategory:[String] = []
