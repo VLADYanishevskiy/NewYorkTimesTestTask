@@ -38,11 +38,8 @@ class VCCategories: UIViewController , UITableViewDataSource , UITableViewDelega
             break;
         default:
             CurrentUsersData.selectedCategory = "home";
-            break;
         }
         
-        
-        print(CurrentUsersData.selectedCategory);
     }
    
     @available(iOS 2.0, *)
@@ -54,7 +51,6 @@ class VCCategories: UIViewController , UITableViewDataSource , UITableViewDelega
         return cell;
     }
 
-
-
+    
 }
 

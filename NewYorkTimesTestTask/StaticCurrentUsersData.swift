@@ -13,5 +13,5 @@ class CurrentUsersData{
     public static var selectedCategory:String = "";
     public static var apiKey = "3UY5UQzAVzKLkP7vDXOoAGOXnljcem6t"
     public static var currentNewsForSelectedCategory:[String] = []
-    
+    public static var currentDocs:[Docs] = []
 }
